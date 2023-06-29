@@ -22,7 +22,6 @@ class Solution {
                 answer[index++] = arr[i];
             }
         }
-        
         return answer;
 
     }
