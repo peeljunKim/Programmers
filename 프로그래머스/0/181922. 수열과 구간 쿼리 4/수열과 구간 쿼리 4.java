@@ -7,7 +7,7 @@ class Solution {
             
             for(int j = s; j<= e; j++){
                 if(j % k ==0){
-                    arr[j]++;
+                    arr[j] += 1;
                 }
             }
             
