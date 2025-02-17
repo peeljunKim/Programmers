@@ -32,3 +32,6 @@ class Solution {
         return answer;
     }
 }
+// 입출력 예 2번 사례를 고려하지 못함 
+// 그렇게 되면 start는 0이 아니게 되고
+// Arrays.copyOfRange(arr, statr, 1)이 작동해서 오류 발생함
