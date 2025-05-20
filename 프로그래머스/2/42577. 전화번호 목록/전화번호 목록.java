@@ -12,9 +12,9 @@ class Solution {
         
         for(String phoneNumber : phone_book){
             for (int i = 1; i < phoneNumber.length(); i++) {
-                String prefix = phoneNumber.substring(0, i);
+                String temp = phoneNumber.substring(0, i);
 
-                if (set.contains(prefix)) {
+                if (set.contains(temp)) {
                     return false;
                 }
             }
